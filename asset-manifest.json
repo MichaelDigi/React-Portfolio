@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.js": "/MichaelDigi/React-Portfolio/static/js/main.1b949102.chunk.js",
-    "main.js.map": "/MichaelDigi/React-Portfolio/static/js/main.1b949102.chunk.js.map",
+    "main.js": "/MichaelDigi/React-Portfolio/static/js/main.2a298e17.chunk.js",
+    "main.js.map": "/MichaelDigi/React-Portfolio/static/js/main.2a298e17.chunk.js.map",
     "runtime-main.js": "/MichaelDigi/React-Portfolio/static/js/runtime-main.6fae5097.js",
     "runtime-main.js.map": "/MichaelDigi/React-Portfolio/static/js/runtime-main.6fae5097.js.map",
     "static/css/2.c268c7e3.chunk.css": "/MichaelDigi/React-Portfolio/static/css/2.c268c7e3.chunk.css",
-    "static/js/2.d90c0b27.chunk.js": "/MichaelDigi/React-Portfolio/static/js/2.d90c0b27.chunk.js",
-    "static/js/2.d90c0b27.chunk.js.map": "/MichaelDigi/React-Portfolio/static/js/2.d90c0b27.chunk.js.map",
+    "static/js/2.103647d5.chunk.js": "/MichaelDigi/React-Portfolio/static/js/2.103647d5.chunk.js",
+    "static/js/2.103647d5.chunk.js.map": "/MichaelDigi/React-Portfolio/static/js/2.103647d5.chunk.js.map",
     "index.html": "/MichaelDigi/React-Portfolio/index.html",
     "static/css/2.c268c7e3.chunk.css.map": "/MichaelDigi/React-Portfolio/static/css/2.c268c7e3.chunk.css.map",
-    "static/js/2.d90c0b27.chunk.js.LICENSE.txt": "/MichaelDigi/React-Portfolio/static/js/2.d90c0b27.chunk.js.LICENSE.txt",
+    "static/js/2.103647d5.chunk.js.LICENSE.txt": "/MichaelDigi/React-Portfolio/static/js/2.103647d5.chunk.js.LICENSE.txt",
     "static/media/Montserrat-Bold.079ca05d.ttf": "/MichaelDigi/React-Portfolio/static/media/Montserrat-Bold.079ca05d.ttf",
     "static/media/Montserrat-SemiBold.fa8441f3.ttf": "/MichaelDigi/React-Portfolio/static/media/Montserrat-SemiBold.fa8441f3.ttf",
     "static/media/NFTC.a6ee8876.jpg": "/MichaelDigi/React-Portfolio/static/media/NFTC.a6ee8876.jpg",
     "static/media/RobotoMono-Regular.418a8f9f.ttf": "/MichaelDigi/React-Portfolio/static/media/RobotoMono-Regular.418a8f9f.ttf",
+    "static/media/about-page-img.98b49446.png": "/MichaelDigi/React-Portfolio/static/media/about-page-img.98b49446.png",
     "static/media/about-sec-img.9fc5ece4.png": "/MichaelDigi/React-Portfolio/static/media/about-sec-img.9fc5ece4.png",
     "static/media/employee.fb029e3d.jpg": "/MichaelDigi/React-Portfolio/static/media/employee.fb029e3d.jpg",
     "static/media/hero.252b86f1.png": "/MichaelDigi/React-Portfolio/static/media/hero.252b86f1.png",
@@ -25,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.6fae5097.js",
     "static/css/2.c268c7e3.chunk.css",
-    "static/js/2.d90c0b27.chunk.js",
-    "static/js/main.1b949102.chunk.js"
+    "static/js/2.103647d5.chunk.js",
+    "static/js/main.2a298e17.chunk.js"
   ]
 }
