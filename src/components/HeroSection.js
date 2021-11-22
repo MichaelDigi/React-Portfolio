@@ -2,8 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import HeroImg from '../assets/images/hero.png';
 import Button from './Button';
-import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
-import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
 import PText from './PText';
 
 const HeroStyles = styled.div`
@@ -166,38 +164,6 @@ export default function HeroSection() {
               developer.
             </PText>
             <Button btnText="Check out my projects!" btnLink="/projects" />
-          </div>
-          <div className="hero__social">
-            <div className="hero__social__indicator">
-              <p>Links</p>
-              <img src={SocialMediaArrow} alt="icon" />
-            </div>
-            <div className="hero__social__text">
-              <ul>
-                <li>
-                  <a
-                    href="https://github.com/MichaelDigi"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    GIT
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.linkedin.com/in/michael-digiandomenico-228892215/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    IN
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="hero__scrollDown">
-            <p>Scroll</p>
-            <img src={ScrollDownArrow} alt="ScrollDown Arrow" />
           </div>
         </div>
       </div>

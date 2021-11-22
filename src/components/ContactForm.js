@@ -24,7 +24,7 @@ const FormStyle = styled.form`
   }
   textarea {
     min-height: 250px;
-    resize: vertical;
+    resize: none;
   }
   button[type='submit'] {
     background-color: var(--gray-1);
