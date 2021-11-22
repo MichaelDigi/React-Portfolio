@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
+// import emailjs from 'emailjs-com';
 
 const FormStyle = styled.form`
   width: 100%;
@@ -38,6 +39,23 @@ const FormStyle = styled.form`
     cursor: pointer;
   }
 `;
+
+// const sendEmail = (e) => {
+//   e.preventDefault();
+
+//   emailjs
+//   .sendForm(
+//     'gmail',
+//     'template_sn8pumj',
+//     FormStyle.current,
+//     'user_wB4MFZha9F5XW8GE9HC39'
+//     )
+//     .then((result) => {
+//         console.log(result.text);
+//       }, (error) => {
+//         console.log(error.text);
+//     });
+// };
 
 export default function ContactForm() {
   const [name, setName] = useState('');

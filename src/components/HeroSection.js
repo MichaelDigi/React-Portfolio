@@ -26,7 +26,7 @@ const HeroStyles = styled.div`
     .hero__name {
       font-family: 'Montserrat SemiBold';
       font-size: 7rem;
-      color: var(--white);
+      color: var(--gray-1);
     }
   }
   .hero__img {
@@ -38,59 +38,6 @@ const HeroStyles = styled.div`
   }
   .hero__info {
     margin-top: -18rem;
-  }
-  .hero__social,
-  .hero__scrollDown {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    position: absolute;
-
-    bottom: 20px;
-    width: 50px;
-  }
-  .hero__social {
-    left: 50px;
-  }
-  .hero__scrollDown {
-    right: 50px;
-  }
-
-  .hero__social__indicator,
-  .hero__scrollDown {
-    width: 50px;
-    p {
-      font-size: 1.6rem;
-      transform: translateY(-70px) rotate(90deg);
-      letter-spacing: 0.7rem;
-      text-transform: uppercase;
-    }
-    img {
-      max-height: 45px;
-      width: 16px;
-      margin: 0 auto;
-      object-fit: contain;
-    }
-  }
-  .hero__scrollDown {
-    img {
-      max-height: 70px;
-    }
-  }
-
-  .hero__social__text {
-    ul {
-      li {
-        margin-bottom: 1rem;
-        a {
-          display: inline-block;
-          font-size: 1.6rem;
-          transform: rotate(-90deg);
-          letter-spacing: 5px;
-          margin-bottom: 2rem;
-        }
-      }
-    }
   }
 
   @media only screen and (max-width: 768px) {
@@ -152,7 +99,7 @@ export default function HeroSection() {
         <div className="container">
           <h1 className="hero__heading">
             <span>Hello, My Name Is</span>
-            <span className="hero__name">Michael Digiandomenico</span>
+            <span className="hero__name">Michael</span>
           </h1>
           <div className="hero__img">
             <img src={HeroImg} alt="" />

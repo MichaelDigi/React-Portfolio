@@ -73,7 +73,7 @@ const AboutSectionStyles = styled.div`
 export default function AboutSection() {
   return (
     <AboutSectionStyles>
-      <div className="container">
+      <div className="container" id="about">
         <div className="aboutSection__left">
           <SectionTitle
             subheading="Let me introduce myself"
