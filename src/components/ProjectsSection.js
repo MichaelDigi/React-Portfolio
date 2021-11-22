@@ -62,7 +62,7 @@ export default function ProjectsSection() {
     <ProjectSectionStyle>
       <div className="container">
         <SectionTitle
-          subheading="Some recent work of mine"
+          subheading="Click image to be taken to application"
           heading="Projects"
         />
         <div className="projects__allItems">
@@ -92,6 +92,8 @@ export default function ProjectsSection() {
                   <ProjectItem
                     title={project.name}
                     img={project.img}
+                    github={project.github}
+                    deploy={project.deploy}
                     desc={project.desc}
                   />
                 </SwiperSlide>

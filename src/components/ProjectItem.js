@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import ProjectImg from '../assets/images/projectImg.png';
 
 const ProjectItemStyles = styled.div`
   .projectItem__img {
@@ -37,15 +36,19 @@ const ProjectItemStyles = styled.div`
 `;
 
 export default function ProjectItem({
-  img = ProjectImg,
+  img,
   title = 'Project Name',
   desc = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+  deploy,
+  github,
 }) {
   return (
     <ProjectItemStyles>
-      <Link to="/projects" className="projectItem__img">
-        <img src={img} alt="project img" />
-      </Link>
+      <div className="projectItem__img">
+        <a href={github}>
+          <img src={img} alt="project img" />
+        </a>
+      </div>
       <div className="projectItem__info">
         <Link to="#">
           <h3 className="projectItem__title">{title}</h3>

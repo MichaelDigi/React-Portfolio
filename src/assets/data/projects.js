@@ -12,6 +12,7 @@ const projects = [
     desc:
       'An platform for NFT collectors to showcase owned NFTs and interact with other users',
     img: NftcImg,
+    github: 'https://nftc-collect.herokuapp.com/',
   },
   {
     id: uuidv4(),
@@ -19,6 +20,8 @@ const projects = [
     desc:
       'Created a working code for the backend of a fitness tracker to be able to add and save workouts ',
     img: WorkoutImg,
+    github:
+      'https://uoft-fitness-track.herokuapp.com/?id=6197df59626358001691e7d0',
   },
   {
     id: uuidv4(),
@@ -26,7 +29,7 @@ const projects = [
     desc:
       'Node app to help Keep track of employees, departments, roles and salarys',
     img: EmployeeImg,
-    href: 'https://github.com/MichaelDigi/Employee-management-sys',
+    github: 'https://github.com/MichaelDigi/Employee-management-sys',
   },
   {
     id: uuidv4(),
@@ -34,6 +37,7 @@ const projects = [
     desc:
       'Fully functioning weather dashboard made from scratch using the OpenWeatherMap Api.',
     img: WeatherImg,
+    github: 'https://michaeldigi.github.io/Weather-Dashboard/',
   },
   {
     id: uuidv4(),

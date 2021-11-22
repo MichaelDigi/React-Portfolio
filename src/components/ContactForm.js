@@ -40,23 +40,6 @@ const FormStyle = styled.form`
   }
 `;
 
-// const sendEmail = (e) => {
-//   e.preventDefault();
-
-//   emailjs
-//   .sendForm(
-//     'gmail',
-//     'template_sn8pumj',
-//     FormStyle.current,
-//     'user_wB4MFZha9F5XW8GE9HC39'
-//     )
-//     .then((result) => {
-//         console.log(result.text);
-//       }, (error) => {
-//         console.log(error.text);
-//     });
-// };
-
 export default function ContactForm() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
